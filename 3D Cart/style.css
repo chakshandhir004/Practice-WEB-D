@@ -1,0 +1,48 @@
+ 
+body{
+    perspective: 800px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+div{
+    height: 250px;
+    width: 350px;
+    border: 2px solid black;
+    margin-left: 40px auto;
+}
+
+.side-a,.side-b{
+    position: absolute;
+    backface-visibility: hidden;
+}
+.side-a{
+    background-color: lightgreen;
+    z-index: 3;
+}
+.side-a img{
+    height: 100%;
+    width: 100%;
+}
+.side-b{
+    background-color: rgb(104, 202, 189);
+    transform: rotateY(180deg);
+    
+}
+h1{
+    text-align: center;
+    color: lightyellow;
+}
+p{
+    padding: 5px;
+}
+.wrap{
+    position: relative;
+    transition: 1s;
+    transform-style: preserve-3d;
+    margin-left: 30px auto;
+}
+.wrap:hover{
+    transform: rotateY(180deg);
+    cursor: pointer;
+}

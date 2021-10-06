@@ -1,0 +1,59 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+#container{
+    width: 350px;
+    border: 2px solid black;
+    margin: 2px auto;
+    margin-top: 50px;
+    background-color: black;
+    border: 2px solid tomato;
+}
+
+h1{
+    text-align: center;
+    font-size: 2.5rem;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: tomato;
+}
+
+#screen{
+    display: block;
+    margin: 2px auto;
+    width: 300px;
+    height: 40px;
+    border: 2px solid tomato;
+    color: tomato; 
+     background-color: black; 
+    font-size: 2rem;
+    outline: none;
+}
+table{
+    margin: 0px auto;
+}
+
+td{
+    height: 50px;
+    width: 65px;
+    border: 2px solid tomato;
+    background-color: black;
+    transition: 200ms;
+}
+
+td:active{
+    transform: scale(0.85);
+}
+td button{
+    width: 100%;
+    height: 100%;
+    font-size: 1.8rem;
+    border: none;
+    color: tomato;
+    background-color: black;
+    box-shadow: 4px 4px 8px orangered ;
+}
+button:hover{
+    cursor: pointer;
+}
